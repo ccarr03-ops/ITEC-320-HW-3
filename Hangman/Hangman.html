@@ -1,21 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="css">
+    <link rel="stylesheet" href="Hangman.css">
     <script src="Hangman.js"></script>
     <title>Document</title>
 </head>
 <body>
     <div>
-        <img src="images\hangman6.gif" alt="Picture of hangman">
+        <img src="Images/hangman6.gif" alt="Picture of hangman">
     </div>
     <div id="clue">Press new game to play</div>
     <div>
         <input type="text" size="1" maxlength="1">
-        <button>Guess</button>
+        <button onclick="guess();">Guess</button>
     </div>
     <div>
-        <button id="newgamearea">New Game</button>
+        <button id="newgamearea" onclick="newGame();">New Game</button>
     </div>
 </body>
 </html>
